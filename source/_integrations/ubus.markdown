@@ -1,7 +1,17 @@
 ---
+title: OpenWrt (ubus)
 description: Instructions on how to integrate OpenWrt devices into Home Assistant.
+ha_categories:
+  - presence_location.network_presence
+  - computers_network.routers_network
 ha_release: 0.7.6
+ha_iot_class: Local Polling
+ha_config_flow: true
 ha_domain: ubus
+ha_platforms:
+  - device_tracker
+ha_integration_type: integration
+ha_quality_scale: legacy
 related:
   - docs: /integrations/device_tracker/
     title: Device tracker
